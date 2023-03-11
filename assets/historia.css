@@ -79,7 +79,7 @@ a:visited{
     } 
 }
 
-.botton{
+.button{
   position: absolute;
   top: 177%;
   left: 45%;
@@ -88,7 +88,7 @@ a:visited{
   border-radius: 15%;  
 }
 
-.botton h1{
+.button h1{
   color: white;
   letter-spacing: 3px;
   font-weight: 100;
@@ -96,6 +96,6 @@ a:visited{
   
 }
 
-.botton:hover{
+.button:hover{
   background-color: #444444;
 }
