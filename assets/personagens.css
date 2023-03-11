@@ -17,21 +17,57 @@
 
 .pedro img{
   position: relative;
-  width: 40%;
- 
+  width: 30%;
+  border-radius: 15px;
+
+  -webkit-box-shadow: 0px 0px 19px 4px rgba(137,137,137,0.34); 
+  box-shadow: 0px 0px 19px 4px rgba(137,137,137,0.34);
+}
+
+.pedro img {
+  animation: pulse 0.7s infinite;
+  display: table;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(100%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(100%);
+  }
 }
 
 .pedro h1{
   position: relative;
   color: white;
-  left: 7%;
   font-size: 20px;
   font-weight: 100;
+  width: 30%;
+  text-align: center;
 }
 
 .pedro p{
+  width: 30%;
   color: white;
   font-size: 12px;
   font-weight: lighter;
   letter-spacing: 1px;
+  text-align: center;
 }

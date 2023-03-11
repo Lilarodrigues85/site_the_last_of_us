@@ -81,35 +81,7 @@ footer a{
   box-shadow: 0px 0px 29px 5px #9D9D9D;
 }
 
-.joel_serie img {
-  animation: pulse 0.7s infinite;
-  display: table;
-  animation-direction: alternate;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-}
 
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    -webkit-filter: brightness(100%);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-    -webkit-filter: brightness(100%);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    filter: brightness(100%);
-  }
-  100% {
-    transform: scale(1.1);
-    filter: brightness(100%);
-  }
-}
 
 .joel_serie h1{
   color: white;
