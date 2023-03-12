@@ -1,0 +1,65 @@
+#background{
+  background: rgba(3, 0, 12, 0.7) url('imagens/fundo_3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100vw;
+  height: 100vh;
+}
+
+.horarios{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  
+}
+
+.horarios h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 35%;
+  margin-left: 40%;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  background-color: #9D9D9D;
+  border-radius: 15px;
+
+}
+
+.horarios p{
+  display: flex;
+  margin-top: 2%;
+  margin-left: 40%;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 1.3em;
+  text-align: center;
+  font-variant: small-caps;
+  padding: 5%;
+  border-radius: 15px;
+
+  -webkit-box-shadow: 0px 0px 10px 0px #9D9D9D; 
+  box-shadow: 0px 0px 10px 0px #9D9D9D;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.button a{
+  background-color: #9D9D9D;
+  padding: 0.5%;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 15%;
+}
+
+.button a:hover{
+  background-color: #444444;
+}
