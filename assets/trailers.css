@@ -10,7 +10,7 @@
 
 iframe {
   margin-top: 1%;
-  margin-left: 18%;
+  margin-left: 19%;
 }
 
 .button {
@@ -20,7 +20,7 @@ iframe {
 
 .button a{
   background-color: #9D9D9D;
-  padding: 0.1%;
+  padding: 0.5%;
   font-weight: 100;
   font-size: 20px;
   border-radius: 15%;
